@@ -1,0 +1,24 @@
+{
+  "name": "boda-vero-raul",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this theme!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdepeace/boda-vero-raul.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valdepeace/boda-vero-raul/issues"
+  },
+  "homepage": "https://github.com/valdepeace/boda-vero-raul#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
