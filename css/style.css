@@ -1768,7 +1768,7 @@ form label {
   background-image: url('../images/photo_2025-12-27_13-13-03.jpg');
   background-size: cover;
   background-position: center;
-  filter: blur(8px) brightness(0.95);
+  filter: blur(12px) brightness(0.95);
   transform: scale(1.05);
 }
 
@@ -1779,8 +1779,8 @@ form label {
   height: 100%;
   object-fit: contain;
   z-index: 0;
-  -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 68%, rgba(0,0,0,0) 100%);
-  mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 68%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: radial-gradient(closest-side, #000 calc(100% - 120px), transparent 100%);
+  mask-image: radial-gradient(closest-side, #000 calc(100% - 120px), transparent 100%);
   filter: saturate(105%) contrast(95%);
 }
 
