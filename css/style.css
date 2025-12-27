@@ -1939,6 +1939,24 @@ html.show-scrollbar::-webkit-scrollbar-thumb {
   border: 2px solid rgba(255,255,255,0.4);
 }
 
+.scroll-indicator {
+  position: fixed;
+  right: 8px;
+  top: 0;
+  width: 6px;
+  height: 60px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(241,78,149,0.9), rgba(255,182,193,0.9));
+  box-shadow: 0 0 10px rgba(241,78,149,0.35);
+  opacity: 0;
+  transition: opacity .2s ease;
+  pointer-events: none;
+  z-index: 9999;
+}
+html.show-scrollbar .scroll-indicator {
+  opacity: 1;
+}
+
 .form-control {
   box-shadow: none;
   background: transparent;
