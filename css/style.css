@@ -1755,24 +1755,62 @@ form label {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../images/photo_2025-12-27_13-13-03.jpg');
-  background-size: 100% 100%; /* Estirar imagen para ocupar todo */
-  background-repeat: no-repeat;
   background-color: #222;
-  background-position: center;
   z-index: 99999;
-  display: flex;
-  justify-content: flex-end; /* Alineado a la derecha */
-  align-items: flex-end;
-  padding-bottom: 30px;
-  padding-right: 30px; /* Espacio a la derecha */
+  display: block;
   transition: opacity 1s ease-out, visibility 1s ease-out;
 }
 
+#intro-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/invitacion.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px) brightness(0.95);
+  transform: scale(1.05);
+}
+
+.intro-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 0;
+}
+
+.intro-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #2b1d1d;
+  z-index: 1;
+  padding: 0 20px;
+}
+.inv-title {
+  font-family: 'Sacramento', cursive;
+  font-size: clamp(36px, 7vw, 80px);
+  margin-bottom: 0.2em;
+}
+.inv-subtitle {
+  font-size: clamp(16px, 2.5vw, 26px);
+  margin-bottom: 0.8em;
+}
+.inv-date, .inv-time, .inv-place {
+  font-size: clamp(18px, 3vw, 32px);
+  line-height: 1.2;
+  margin: 0.3em 0;
+}
+
 #intro-overlay .intro-content {
-  width: auto;
-  position: relative;
-  bottom: auto;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  z-index: 2;
 }
 
 #enter-btn {
