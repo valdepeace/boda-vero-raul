@@ -2327,5 +2327,30 @@ html::-webkit-scrollbar {
     text-align: center;
   }
 }
+.promo-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 2px solid rgba(0,0,0,0.08);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  padding: 28px 24px;
+  border-radius: 6px;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+#contacto .promo-card .fh5co-heading {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+}
+#contacto .promo-card .btn {
+  background: #F14E95;
+  border: none !important;
+  color: #fff;
+}
+#contacto .promo-card .btn:hover,
+#contacto .promo-card .btn:focus {
+  background: #e23988 !important;
+}
 
 /*# sourceMappingURL=style.css.map */
