@@ -2060,12 +2060,12 @@ html::-webkit-scrollbar {
 
 #transport .overlay {
   background: rgba(255, 255, 255, 0.45);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 #transport .fh5co-heading h2 {
   color: #F14E95;
-  font-size: clamp(28px, 5vw, 44px);
+  font-size: 60px;
 }
 #transport .fh5co-heading p {
   color: #4b3b3b;
@@ -2077,10 +2077,21 @@ html::-webkit-scrollbar {
 /* Caja blanca para destacar el texto como en Confirmación */
 #transport .fh5co-heading {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.92);
-  padding: 30px 26px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 40px 26px 30px;
   border-radius: 6px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+@media screen and (max-width: 768px) {
+  #transport .fh5co-heading h2 {
+    font-size: 40px;
+  }
+}
+#transport .container {
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 #fh5co-header {
   position: relative;
