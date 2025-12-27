@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #fff;
+  color: #F14E95;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -128,13 +128,13 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  color: #F14E95;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: white;
+  color: #e23988;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -316,6 +316,13 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header h1 {
   color: #F14E95;
   font-weight: 700;
+}
+#fh5co-header .display-tc h2 {
+  color: #F14E95;
+}
+.fh5co-nav #fh5co-logo,
+.fh5co-nav #fh5co-logo a {
+  color: #F14E95;
 }
 #fh5co-header .overlay {
   backdrop-filter: blur(5px);
