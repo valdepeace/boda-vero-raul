@@ -1979,4 +1979,18 @@ html::-webkit-scrollbar {
   background: rgba(255, 255, 255, 0.18);
 }
 
+#fh5co-event .fh5co-heading h2 {
+  color: #3b2b2b;
+}
+#fh5co-event .fh5co-heading span {
+  color: rgba(60, 40, 40, 0.6);
+}
+#fh5co-event .event-wrap h3 {
+  color: #3b2b2b;
+}
+#fh5co-event .event-wrap p,
+#fh5co-event .event-wrap span {
+  color: #4b3b3b;
+}
+
 /*# sourceMappingURL=style.css.map */
