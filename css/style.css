@@ -2121,14 +2121,14 @@ html::-webkit-scrollbar {
     margin: 0 auto;
   }
   #fh5co-event .fh5co-heading {
-    display: inline-block;
+    display: block;
     background: rgba(255, 255, 255, 0.92);
     padding: 18px 16px;
     border-radius: 6px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-    margin-bottom: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 1.5em;
+    max-width: 520px;
+    text-align: center;
   }
   #fh5co-event .event-wrap {
     background: rgba(255, 255, 255, 0.92);
