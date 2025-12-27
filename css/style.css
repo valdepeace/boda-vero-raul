@@ -2058,6 +2058,20 @@ html::-webkit-scrollbar {
   text-shadow: 0 0 4px rgba(241, 78, 149, 0.25);
 }
 
+#transport .overlay {
+  background: rgba(255, 255, 255, 0.45);
+}
+#transport .fh5co-heading h2 {
+  color: #3b2b2b;
+  font-size: clamp(28px, 5vw, 44px);
+}
+#transport .fh5co-heading p {
+  color: #4b3b3b;
+  font-size: clamp(16px, 3vw, 20px);
+}
+#transport .fh5co-heading i {
+  color: #F14E95;
+}
 #fh5co-header {
   position: relative;
 }
