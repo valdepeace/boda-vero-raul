@@ -2080,6 +2080,19 @@ html::-webkit-scrollbar {
   z-index: 1;
 }
 
+.fh5co-bg#fh5co-started .fh5co-heading h2 {
+  color: #1e3a8a;
+}
+.fh5co-bg#fh5co-started .btn {
+  background: #1e3a8a;
+  border: none !important;
+  color: #fff;
+}
+.fh5co-bg#fh5co-started .btn:hover,
+.fh5co-bg#fh5co-started .btn:focus {
+  background: #163b7a !important;
+}
+
 #qr-photos {
   position: relative;
 }
