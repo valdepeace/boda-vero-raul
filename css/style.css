@@ -2115,6 +2115,14 @@ html::-webkit-scrollbar {
   z-index: 1;
 }
 
+.fh5co-bg#fh5co-started .fh5co-heading {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 28px 24px;
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
 .fh5co-bg#fh5co-started .fh5co-heading h2 {
   color: #F14E95;
 }
