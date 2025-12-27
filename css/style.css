@@ -2092,6 +2092,26 @@ html::-webkit-scrollbar {
   text-shadow: 0 0 4px rgba(241, 78, 149, 0.25);
 }
 
+@media screen and (max-width: 768px) {
+  #fh5co-event .display-t,
+  #fh5co-event .display-tc {
+    display: block;
+    height: auto;
+  }
+  #fh5co-event .col-md-10 {
+    width: 100%;
+  }
+  #fh5co-event .col-md-6,
+  #fh5co-event .col-sm-6 {
+    width: 100%;
+    float: none;
+    margin-bottom: 18px;
+  }
+  #fh5co-event .event-wrap {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+}
 #transport .overlay {
   background: rgba(255, 255, 255, 0.45);
   backdrop-filter: blur(6px);
