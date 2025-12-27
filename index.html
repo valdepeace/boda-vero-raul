@@ -331,12 +331,16 @@
 	document.addEventListener('DOMContentLoaded', function() {
 		var overlay = document.getElementById('intro-overlay');
 		var btn = document.getElementById('enter-btn');
+		if (overlay) {
+			document.body.classList.add('intro-active');
+		}
 		
 		function hideOverlay() {
 			if (overlay) {
 				overlay.classList.add('hidden');
 				setTimeout(function() {
 					overlay.style.display = 'none';
+					document.body.classList.remove('intro-active');
 				}, 1000); // Esperar a la transición
 			}
 		}

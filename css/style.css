@@ -1758,6 +1758,7 @@ form label {
   background-color: #222;
   z-index: 99999;
   display: block;
+  overflow: hidden;
   transition: opacity 1s ease-out, visibility 1s ease-out;
 }
 
@@ -1811,6 +1812,13 @@ form label {
   font-size: clamp(18px, 3vw, 32px);
   line-height: 1.2;
   margin: 0.3em 0;
+}
+
+#page,
+body.intro-active {
+  overflow: hidden;
+  overscroll-behavior: none;
+  height: 100vh;
 }
 
 #intro-overlay .intro-content {
