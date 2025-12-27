@@ -313,6 +313,10 @@ h1, h2, h3, h4, h5, h6, figure {
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
 }
+#fh5co-header h1 {
+  color: #F14E95;
+  font-weight: 700;
+}
 .section-fade-bottom::after {
   content: "";
   position: absolute;
