@@ -2093,6 +2093,9 @@ html::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 768px) {
+  #fh5co-event .container {
+    display: block;
+  }
   #fh5co-event .display-t,
   #fh5co-event .display-tc {
     display: block;
@@ -2100,14 +2103,20 @@ html::-webkit-scrollbar {
   }
   #fh5co-event .col-md-10 {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    justify-items: center;
+    align-items: start;
   }
   #fh5co-event .col-md-6,
   #fh5co-event .col-sm-6 {
-    width: 100%;
+    width: auto;
     float: none;
-    margin-bottom: 18px;
+    margin-bottom: 0;
   }
   #fh5co-event .event-wrap {
+    width: 100%;
     max-width: 520px;
     margin: 0 auto;
   }
@@ -2118,6 +2127,8 @@ html::-webkit-scrollbar {
     border-radius: 6px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
     margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
   }
   #fh5co-event .event-wrap {
     background: rgba(255, 255, 255, 0.92);
@@ -2141,6 +2152,14 @@ html::-webkit-scrollbar {
   #fh5co-event .event-wrap p,
   #fh5co-event .event-wrap span {
     color: #3b2b2b;
+  }
+}
+@media screen and (max-width: 480px) {
+  #fh5co-event .col-md-10 {
+    grid-template-columns: 1fr;
+  }
+  #fh5co-event .event-wrap {
+    max-width: 360px;
   }
 }
 #transport .overlay {
