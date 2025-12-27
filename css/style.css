@@ -1764,8 +1764,38 @@ form label {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding-bottom: 80px;
+  padding-bottom: 30px; /* Reducido para bajar el botón */
   transition: opacity 1s ease-out, visibility 1s ease-out;
+}
+
+#intro-overlay .intro-content {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+#enter-btn {
+  background: linear-gradient(135deg, rgba(241, 78, 149, 0.9), rgba(255, 182, 193, 0.9));
+  border: none;
+  /* Forma irregular para efecto acuarela/orgánico */
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  color: #fff;
+  font-family: 'Sacramento', cursive;
+  font-size: 32px;
+  padding: 10px 50px;
+  text-transform: none; /* Respetar la fuente cursiva */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+#enter-btn:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 6px 20px rgba(241, 78, 149, 0.5);
+  background: linear-gradient(135deg, rgba(255, 182, 193, 0.95), rgba(241, 78, 149, 0.95));
+  color: #fff;
 }
 
 #intro-overlay.hidden {
