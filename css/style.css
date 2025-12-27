@@ -317,20 +317,6 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #F14E95;
   font-weight: 700;
 }
- .hero-title-box {
-  display: inline-block;
-  background: rgba(241, 78, 149, 0.18);
-  padding: 12px 22px;
-  border-radius: 8px;
-  border: 2px solid #F14E95;
-  box-shadow: 0 6px 20px rgba(241, 78, 149, 0.15);
-}
-#fh5co-header .hero-title-box h1 {
-  background: transparent;
-  padding: 0;
-  border: 0;
-  box-shadow: none;
-}
 .section-fade-bottom::after {
   content: "";
   position: absolute;
