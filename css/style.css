@@ -355,8 +355,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    min-height: 100vh;
-    height: auto;
+    height: 100vh;
   }
 }
 .fh5co-cover .display-t,
@@ -368,7 +367,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: auto;
+    height: 100vh;
   }
 }
 .fh5co-cover.fh5co-cover-sm {
@@ -436,7 +435,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-counter .display-tc,
   #fh5co-event .display-t,
   #fh5co-event .display-tc {
-    height: auto;
+    height: 100vh;
   }
 }
 #fh5co-counter .event-wrap,
@@ -498,11 +497,12 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-bg,
   .fh5co-section {
     min-height: 100vh;
-    display: flex;
-    align-items: center;
   }
   .fh5co-bg .container,
   .fh5co-section .container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
     padding-top: 3em;
     padding-bottom: 3em;
     margin-top: 0;
