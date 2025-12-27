@@ -1914,6 +1914,31 @@ body.intro-active {
   opacity: 1;
 }
 
+.show-scrollbar {
+}
+html {
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+html.show-scrollbar {
+  scrollbar-width: thin;
+}
+html.show-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+html.show-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.08);
+}
+html.show-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(241,78,149,0.9), rgba(255,182,193,0.9));
+  border-radius: 8px;
+  border: 2px solid rgba(255,255,255,0.4);
+}
+
 .form-control {
   box-shadow: none;
   background: transparent;

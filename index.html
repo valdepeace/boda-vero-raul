@@ -331,12 +331,16 @@
 	document.addEventListener('DOMContentLoaded', function() {
 		var overlay = document.getElementById('intro-overlay');
 		var btn = document.getElementById('enter-btn');
+		if (overlay) {
+			document.body.classList.add('intro-active');
+		}
 		
 		function hideOverlay() {
 			if (overlay) {
 				overlay.classList.add('hidden');
 				setTimeout(function() {
 					overlay.style.display = 'none';
+					document.body.classList.remove('intro-active');
 				}, 1000); // Esperar a la transición
 			}
 		}
@@ -351,6 +355,21 @@
 		// Ocultar automáticamente después de 10 segundos
 		setTimeout(hideOverlay, 10000);
 	});
+	(function(){
+		var t;
+		function showBar(){
+			if (document.body.classList.contains('intro-active')) return;
+			document.documentElement.classList.add('show-scrollbar');
+			clearTimeout(t);
+			t = setTimeout(function(){
+				document.documentElement.classList.remove('show-scrollbar');
+			}, 1500);
+		}
+		window.addEventListener('wheel', showBar, {passive:true});
+		window.addEventListener('touchmove', showBar, {passive:true});
+		window.addEventListener('keydown', showBar);
+		window.addEventListener('mousemove', showBar, {passive:true});
+	})();
 </script>
 
 	</body>
