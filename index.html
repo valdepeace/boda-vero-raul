@@ -176,7 +176,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-started" class="fh5co-bg section-fade-bottom" style="background-image:url(images/fondo_03.jpg);">
+	<div id="fh5co-started" class="fh5co-bg section-fade-bottom scroll-fade" style="background-image:url(images/fondo_03.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
@@ -198,7 +198,7 @@
 		</div>
 	</div>
 
-	<div id="transport" class="fh5co-bg section-fade-bottom" style="background-image:url(images/fondo_04.jpg);">
+	<div id="transport" class="fh5co-bg section-fade-bottom scroll-fade" style="background-image:url(images/fondo_04.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
@@ -212,7 +212,7 @@
 		</div>
 	</div>
 
-	<div id="qr-photos" class="fh5co-bg section-fade-bottom" style="background-image:url(images/fondo_05.jpg);">
+	<div id="qr-photos" class="fh5co-bg section-fade-bottom scroll-fade" style="background-image:url(images/fondo_05.jpg);">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -248,7 +248,7 @@
 
 	<!-- Sección de información eliminada -->
 
-	<div id="contacto" class="fh5co-section">
+	<div id="contacto" class="fh5co-section scroll-fade">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -356,6 +356,24 @@
 	});
 	(function(){
 		// Sin barra visible: el scroll funciona con rueda/teclas/touch
+	})();
+	(function(){
+		var sections = document.querySelectorAll('.scroll-fade');
+		if (!sections.length) return;
+		if (!('IntersectionObserver' in window)) {
+			sections.forEach(function(s){ s.classList.add('in-view'); });
+			return;
+		}
+		var io = new IntersectionObserver(function(entries){
+			entries.forEach(function(e){
+				if (e.isIntersecting) {
+					e.target.classList.add('in-view');
+				} else {
+					e.target.classList.remove('in-view');
+				}
+			});
+		}, { threshold: 0.15, rootMargin: '0px 0px -10% 0px' });
+		sections.forEach(function(s){ io.observe(s); });
 	})();
 </script>
 
