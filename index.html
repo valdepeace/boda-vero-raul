@@ -66,6 +66,12 @@
 
 	</head>
 	<body>
+	
+	<div id="intro-overlay">
+		<div class="intro-content">
+			<a href="#" id="enter-btn" class="btn btn-primary btn-lg">Siguiente</a>
+		</div>
+	</div>
 		
 	<div class="fh5co-loader"></div>
 	
@@ -92,7 +98,7 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2-1.png);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2-1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -311,6 +317,31 @@
             pluralLetter: 's'
         }
     });
+
+	// Script para el splash screen
+	document.addEventListener('DOMContentLoaded', function() {
+		var overlay = document.getElementById('intro-overlay');
+		var btn = document.getElementById('enter-btn');
+		
+		function hideOverlay() {
+			if (overlay) {
+				overlay.classList.add('hidden');
+				setTimeout(function() {
+					overlay.style.display = 'none';
+				}, 1000); // Esperar a la transición
+			}
+		}
+
+		if (btn) {
+			btn.addEventListener('click', function(e) {
+				e.preventDefault();
+				hideOverlay();
+			});
+		}
+
+		// Ocultar automáticamente después de 10 segundos
+		setTimeout(hideOverlay, 10000);
+	});
 </script>
 
 	</body>
