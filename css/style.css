@@ -1961,4 +1961,22 @@ html::-webkit-scrollbar {
   opacity: 0;
 }
 
+#fh5co-event {
+  position: relative;
+}
+#fh5co-event::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/fondo_hacienda.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px) brightness(1.12);
+  transform: scale(1.03);
+  z-index: 0;
+}
+#fh5co-event .overlay {
+  background: rgba(255, 255, 255, 0.18);
+}
+
 /*# sourceMappingURL=style.css.map */
