@@ -2111,6 +2111,37 @@ html::-webkit-scrollbar {
     max-width: 520px;
     margin: 0 auto;
   }
+  #fh5co-event .fh5co-heading {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.92);
+    padding: 18px 16px;
+    border-radius: 6px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    margin-bottom: 1.5em;
+  }
+  #fh5co-event .event-wrap {
+    background: rgba(255, 255, 255, 0.92);
+    border: 2px solid rgba(0,0,0,0.08);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    padding: 24px;
+    border-radius: 6px;
+  }
+  #fh5co-event .event-wrap h3 {
+    color: #F14E95;
+    border-bottom-color: rgba(0,0,0,0.12);
+  }
+  #fh5co-event .event-wrap .event-col {
+    width: 100%;
+    float: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  #fh5co-event .event-wrap p,
+  #fh5co-event .event-wrap span {
+    color: #3b2b2b;
+  }
 }
 #transport .overlay {
   background: rgba(255, 255, 255, 0.45);
