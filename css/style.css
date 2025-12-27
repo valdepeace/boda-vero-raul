@@ -1980,14 +1980,14 @@ html::-webkit-scrollbar {
 }
 
 #fh5co-event .fh5co-heading h2 {
-  color: #3b2b2b;
+  color: #F14E95;
 }
 #fh5co-event .fh5co-heading span {
   color: rgba(60, 40, 40, 0.6);
 }
 #fh5co-event .event-wrap h3 {
   color: #3b2b2b;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #F14E95;
 }
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
