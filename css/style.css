@@ -1998,5 +1998,9 @@ html::-webkit-scrollbar {
   border: 2px solid #000;
   background: rgba(255, 255, 255, 0.12);
 }
+#fh5co-event .event-col i {
+  color: #F14E95;
+  text-shadow: 0 0 4px rgba(241, 78, 149, 0.25);
+}
 
 /*# sourceMappingURL=style.css.map */
