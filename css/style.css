@@ -2081,16 +2081,16 @@ html::-webkit-scrollbar {
 }
 
 .fh5co-bg#fh5co-started .fh5co-heading h2 {
-  color: #1e3a8a;
+  color: #F14E95;
 }
 .fh5co-bg#fh5co-started .btn {
-  background: #1e3a8a;
+  background: #F14E95;
   border: none !important;
   color: #fff;
 }
 .fh5co-bg#fh5co-started .btn:hover,
 .fh5co-bg#fh5co-started .btn:focus {
-  background: #163b7a !important;
+  background: #e23988 !important;
 }
 
 #qr-photos {
