@@ -283,7 +283,6 @@
 	</footer>
 	</div>
 
-	<div id="scroll-indicator" class="scroll-indicator"></div>
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
@@ -357,33 +356,7 @@
 		setTimeout(hideOverlay, 10000);
 	});
 	(function(){
-		var t;
-		var ind = document.getElementById('scroll-indicator');
-		function updateIndicator(){
-			if (!ind) return;
-			var doc = document.documentElement;
-			var max = doc.scrollHeight - doc.clientHeight;
-			var top = (max > 0 ? (window.pageYOffset || doc.scrollTop) / max : 0) * (doc.clientHeight);
-			var h = Math.max(40, doc.clientHeight * (doc.clientHeight / doc.scrollHeight));
-			top = Math.min(doc.clientHeight - h, Math.max(0, top - h / 2));
-			ind.style.height = h + 'px';
-			ind.style.transform = 'translateY(' + top + 'px)';
-		}
-		function showBar(){
-			if (document.body.classList.contains('intro-active')) return;
-			document.documentElement.classList.add('show-scrollbar');
-			updateIndicator();
-			clearTimeout(t);
-			t = setTimeout(function(){
-				document.documentElement.classList.remove('show-scrollbar');
-			}, 1500);
-		}
-		window.addEventListener('wheel', showBar, {passive:true});
-		window.addEventListener('touchmove', showBar, {passive:true});
-		window.addEventListener('keydown', showBar);
-		window.addEventListener('mousemove', showBar, {passive:true});
-		window.addEventListener('scroll', function(){ if (!document.body.classList.contains('intro-active')) { updateIndicator(); } }, {passive:true});
-		updateIndicator();
+		// Sin barra visible: el scroll funciona con rueda/teclas/touch
 	})();
 </script>
 
