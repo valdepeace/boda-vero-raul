@@ -1792,15 +1792,18 @@ form label {
   padding: 0 20px;
 }
 .inv-title {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: clamp(36px, 7vw, 80px);
   margin-bottom: 0.2em;
 }
 .inv-subtitle {
+  font-family: 'Cormorant Garamond', serif;
   font-size: clamp(16px, 2.5vw, 26px);
   margin-bottom: 0.8em;
+  font-style: italic;
 }
 .inv-date, .inv-time, .inv-place {
+  font-family: 'Cormorant Garamond', serif;
   font-size: clamp(18px, 3vw, 32px);
   line-height: 1.2;
   margin: 0.3em 0;
