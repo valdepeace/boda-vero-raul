@@ -317,6 +317,10 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #F14E95;
   font-weight: 700;
 }
+#fh5co-header .overlay {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
 .section-fade-bottom::after {
   content: "";
   position: absolute;
