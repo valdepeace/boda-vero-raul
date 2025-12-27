@@ -2048,4 +2048,25 @@ html::-webkit-scrollbar {
   text-shadow: 0 0 4px rgba(241, 78, 149, 0.25);
 }
 
+#qr-photos {
+  position: relative;
+}
+#qr-photos::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/fondo_05.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px) brightness(1.05);
+  transform: scale(1.03);
+  z-index: 0;
+  -webkit-mask-image: radial-gradient(closest-side, rgba(0,0,0,1) calc(100% - 120px), rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(closest-side, rgba(0,0,0,1) calc(100% - 120px), rgba(0,0,0,0) 100%);
+}
+#qr-photos .container {
+  position: relative;
+  z-index: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
