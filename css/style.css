@@ -2230,6 +2230,13 @@ html::-webkit-scrollbar {
   border-radius: 6px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
+.fh5co-bg#fh5co-started .text-center .fh5co-heading {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+  display: block;
+}
 .fh5co-bg#fh5co-started .fh5co-heading p {
   color: #4b3b3b;
 }
