@@ -1814,7 +1814,6 @@ form label {
   margin: 0.3em 0;
 }
 
-#page,
 body.intro-active {
   overflow: hidden;
   overscroll-behavior: none;
