@@ -2086,8 +2086,9 @@ html::-webkit-scrollbar {
 }
 /* Bordes de los cuadros de ceremonia y recepción en negro */
 #fh5co-event .event-wrap {
-  border: 2px solid #000;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.88);
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   margin-left: 12px;
   margin-right: 12px;
 }
