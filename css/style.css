@@ -534,6 +534,14 @@ h1, h2, h3, h4, h5, h6, figure {
     background-position: center 8%;
   }
 }
+@media screen and (max-width: 768px) {
+  #fh5co-event,
+  #transport {
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+}
 
 .timeline {
   list-style: none;
@@ -2200,7 +2208,7 @@ html::-webkit-scrollbar {
 /* Caja blanca para destacar el texto como en Confirmación */
 #transport .fh5co-heading {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.60);
+  background: rgba(255, 255, 255, 0.50);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   padding: 40px 26px 30px;
@@ -2209,7 +2217,7 @@ html::-webkit-scrollbar {
 }
 @media screen and (max-width: 768px) {
   #transport .fh5co-heading {
-    background: rgba(255, 255, 255, 0.70);
+    background: rgba(255, 255, 255, 0.50);
   }
 }
 #transport .container {
@@ -2281,7 +2289,7 @@ html::-webkit-scrollbar {
   #fh5co-started .text-center {
     max-width: 520px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.70);
+    background: rgba(255, 255, 255, 0.50);
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
     border-radius: 6px;
   }
