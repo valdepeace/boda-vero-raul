@@ -535,10 +535,9 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 @media screen and (max-width: 768px) {
-  #fh5co-event,
-  #transport {
-    background-size: contain;
-    background-position: center top;
+  #fh5co-event {
+    background-size: cover;
+    background-position: center 25%;
     background-repeat: no-repeat;
   }
 }
@@ -2317,10 +2316,16 @@ html::-webkit-scrollbar {
   position: relative;
   z-index: 1;
 }
+/* Opacidad de tarjeta en escritorio para 'Comparte tus Fotos' */
+#qr-photos .fh5co-heading {
+  background: rgba(255, 255, 255, 0.60);
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
 @media screen and (max-width: 768px) {
   #qr-photos .fh5co-heading {
     display: block;
-    background: rgba(255, 255, 255, 0.92);
+    background: rgba(255, 255, 255, 0.70);
     padding: 24px 20px;
     border-radius: 6px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
