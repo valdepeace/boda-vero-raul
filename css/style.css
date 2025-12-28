@@ -502,13 +502,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-bg {
-    background-position: center 35%;
+    background-position: center 25%;
   }
   #fh5co-header,
   #fh5co-event,
   #transport,
   #qr-photos {
-    background-position: center 35%;
+    background-position: center 25%;
   }
   .fh5co-bg,
   .fh5co-section {
