@@ -2086,7 +2086,7 @@ html::-webkit-scrollbar {
 }
 /* Bordes de los cuadros de ceremonia y recepción en negro */
 #fh5co-event .event-wrap {
-  background: rgba(255, 255, 255, 0.70);
+  background: rgba(255, 255, 255, 0.60);
   border: 2px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   margin-left: 12px;
@@ -2136,7 +2136,7 @@ html::-webkit-scrollbar {
     text-align: center;
   }
   #fh5co-event .event-wrap {
-    background: rgba(255, 255, 255, 0.78);
+    background: rgba(255, 255, 255, 0.70);
     border: 2px solid rgba(0,0,0,0.08);
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
     padding: 24px;
@@ -2267,7 +2267,7 @@ html::-webkit-scrollbar {
   #fh5co-started .text-center {
     max-width: 520px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.70);
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
     border-radius: 6px;
   }
