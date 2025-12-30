@@ -501,6 +501,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 @media screen and (max-width: 768px) {
+  .fh5co-bg {
+    background-position: center 25%;
+  }
+  #fh5co-header,
+  #fh5co-event,
+  #transport,
+  #qr-photos {
+    background-position: center 25%;
+  }
   .fh5co-bg,
   .fh5co-section {
     min-height: 100vh;
@@ -518,6 +527,18 @@ h1, h2, h3, h4, h5, h6, figure {
   }
   .fh5co-heading {
     margin-bottom: 3em;
+  }
+}
+@media screen and (max-width: 768px) {
+  #transport {
+    background-position: center 8%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fh5co-event {
+    background-size: cover;
+    background-position: center 25%;
+    background-repeat: no-repeat;
   }
 }
 
@@ -2086,7 +2107,7 @@ html::-webkit-scrollbar {
 }
 /* Bordes de los cuadros de ceremonia y recepción en negro */
 #fh5co-event .event-wrap {
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.60);
   border: 2px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   margin-left: 12px;
@@ -2136,7 +2157,7 @@ html::-webkit-scrollbar {
     text-align: center;
   }
   #fh5co-event .event-wrap {
-    background: rgba(255, 255, 255, 0.92);
+    background: rgba(255, 255, 255, 0.70);
     border: 2px solid rgba(0,0,0,0.08);
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
     padding: 24px;
@@ -2186,7 +2207,7 @@ html::-webkit-scrollbar {
 /* Caja blanca para destacar el texto como en Confirmación */
 #transport .fh5co-heading {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.50);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   padding: 40px 26px 30px;
@@ -2194,8 +2215,8 @@ html::-webkit-scrollbar {
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 @media screen and (max-width: 768px) {
-  #transport .fh5co-heading h2 {
-    font-size: 40px;
+  #transport .fh5co-heading {
+    background: rgba(255, 255, 255, 0.50);
   }
 }
 #transport .container {
@@ -2267,7 +2288,7 @@ html::-webkit-scrollbar {
   #fh5co-started .text-center {
     max-width: 520px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.50);
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
     border-radius: 6px;
   }
@@ -2295,10 +2316,16 @@ html::-webkit-scrollbar {
   position: relative;
   z-index: 1;
 }
+/* Opacidad de tarjeta en escritorio para 'Comparte tus Fotos' */
+#qr-photos .fh5co-heading {
+  background: rgba(255, 255, 255, 0.60);
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
 @media screen and (max-width: 768px) {
   #qr-photos .fh5co-heading {
     display: block;
-    background: rgba(255, 255, 255, 0.92);
+    background: rgba(255, 255, 255, 0.70);
     padding: 24px 20px;
     border-radius: 6px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
