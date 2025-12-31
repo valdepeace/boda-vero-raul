@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #F14E95;
+  color: #0A837A;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F14E95;
+  color: #0A837A;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F14E95;
+  background: #0A837A;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F14E95;
+  background: #0A837A;
 }
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: #0A837A;
 }
 
 .fh5co-nav {
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #F14E95;
+  color: #0A837A;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: #F14E95;
+  color: #0A837A;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #F14E95;
+  color: #0A837A;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -314,15 +314,15 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-backdrop-filter: blur(3px);
 }
 #fh5co-header h1 {
-  color: #F14E95;
+  color: #0A837A;
   font-weight: 700;
 }
 #fh5co-header .display-tc h2 {
-  color: #F14E95;
+  color: #0A837A;
 }
 .fh5co-nav #fh5co-logo,
 .fh5co-nav #fh5co-logo a {
-  color: #F14E95;
+  color: #0A837A;
 }
 #fh5co-header .overlay {
   backdrop-filter: blur(5px);
@@ -855,7 +855,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F14E95;
+  color: #0A837A;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -874,7 +874,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #F14E95;
+  color: #0A837A;
   position: absolute;
   left: 0;
   top: .05em;
@@ -937,20 +937,21 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 56px;
+    font-size: 64px;
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 42px;
+    font-size: 50px;
   }
 }
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 28px;
+  font-weight: 700;
   line-height: 1.5;
   margin-bottom: 30px;
 }
@@ -958,7 +959,8 @@ form label {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 22px;
+    font-weight: 700;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -966,7 +968,7 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: #F14E95;
+  color: #0A837A;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -1071,10 +1073,19 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-word {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   font-size: 12px;
   /* words */
+}
+
+/* Contador: círculos verdes y texto blanco */
+.simply-countdown-one > .simply-section {
+  background: #0A837A !important;
+}
+.simply-countdown-one .simply-amount,
+.simply-countdown-one .simply-word {
+  color: #ffffff !important;
 }
 
 #fh5co-testimonial,
@@ -1130,7 +1141,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #F14E95;
+  color: #0A837A;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1153,7 +1164,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
-  color: #F14E95;
+  color: #0A837A;
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1246,7 +1257,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #F14E95;
+  color: #0A837A;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -1268,7 +1279,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
+  color: #0A837A;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1303,7 +1314,7 @@ form label {
   display: block;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #F14E95;
+  color: #0A837A;
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
@@ -1395,7 +1406,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #F14E95;
+  color: #0A837A;
 }
 .feature-left .feature-copy {
   float: left;
@@ -1461,7 +1472,7 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #F14E95;
+  background: #0A837A;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1529,7 +1540,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #F14E95;
+  border: 2px solid #0A837A;
 }
 
 #fh5co-offcanvas {
@@ -1782,9 +1793,9 @@ form label {
 }
 
 .btn-primary {
-  background: #F14E95;
+  background: #0A837A;
   color: #fff;
-  border: 2px solid #F14E95;
+  border: 2px solid #0A837A;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #f366a3 !important;
@@ -1792,11 +1803,11 @@ form label {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #F14E95;
-  border: 2px solid #F14E95;
+  color: #0A837A;
+  border: 2px solid #0A837A;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #F14E95;
+  background: #0A837A;
   color: #fff;
 }
 
@@ -1937,7 +1948,7 @@ body.intro-active {
 }
 
 #enter-btn {
-  background: linear-gradient(135deg, rgba(241, 78, 149, 0.9), rgba(255, 182, 193, 0.9));
+  background: linear-gradient(135deg, rgba(10, 131, 122, 0.9), rgba(19, 160, 147, 0.9));
   border: none;
   /* Forma irregular para efecto acuarela/orgánico */
   border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
@@ -1954,8 +1965,8 @@ body.intro-active {
 
 #enter-btn:hover {
   transform: scale(1.05) rotate(-1deg);
-  box-shadow: 0 6px 20px rgba(241, 78, 149, 0.5);
-  background: linear-gradient(135deg, rgba(255, 182, 193, 0.95), rgba(241, 78, 149, 0.95));
+  box-shadow: 0 6px 20px rgba(10, 131, 122, 0.5);
+  background: linear-gradient(135deg, rgba(19, 160, 147, 0.95), rgba(10, 131, 122, 0.95));
   color: #fff;
 }
 
@@ -2045,7 +2056,7 @@ html::-webkit-scrollbar {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #F14E95;
+  border-color: #0A837A;
 }
 
 .row-pb-md {
@@ -2092,14 +2103,14 @@ html::-webkit-scrollbar {
 }
 
 #fh5co-event .fh5co-heading h2 {
-  color: #F14E95;
+  color: #0A837A;
 }
 #fh5co-event .fh5co-heading span {
   color: rgba(60, 40, 40, 0.6);
 }
 #fh5co-event .event-wrap h3 {
   color: #3b2b2b;
-  border-bottom: 1px solid #F14E95;
+  border-bottom: 1px solid #0A837A;
 }
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
@@ -2114,7 +2125,7 @@ html::-webkit-scrollbar {
   margin-right: 12px;
 }
 #fh5co-event .event-col i {
-  color: #F14E95;
+  color: #0A837A;
   text-shadow: 0 0 4px rgba(241, 78, 149, 0.25);
 }
 
@@ -2164,7 +2175,7 @@ html::-webkit-scrollbar {
     border-radius: 6px;
   }
   #fh5co-event .event-wrap h3 {
-    color: #F14E95;
+    color: #0A837A;
     border-bottom-color: rgba(0,0,0,0.12);
   }
   #fh5co-event .event-wrap .event-col {
@@ -2194,7 +2205,7 @@ html::-webkit-scrollbar {
   -webkit-backdrop-filter: blur(6px);
 }
 #transport .fh5co-heading h2 {
-  color: #F14E95;
+  color: #0A837A;
   font-size: 60px;
 }
 #transport .fh5co-heading p {
@@ -2202,7 +2213,7 @@ html::-webkit-scrollbar {
   font-size: clamp(16px, 3vw, 20px);
 }
 #transport .fh5co-heading i {
-  color: #F14E95;
+  color: #0A837A;
 }
 /* Caja blanca para destacar el texto como en Confirmación */
 #transport .fh5co-heading {
@@ -2264,10 +2275,10 @@ html::-webkit-scrollbar {
 }
 
 .fh5co-bg#fh5co-started .fh5co-heading h2 {
-  color: #F14E95;
+  color: #0A837A;
 }
 .fh5co-bg#fh5co-started .btn {
-  background: #F14E95;
+  background: #0A837A;
   border: none !important;
   color: #fff;
 }
@@ -2294,10 +2305,10 @@ html::-webkit-scrollbar {
   }
 }
 .fh5co-bg#fh5co-started .fh5co-heading h2 {
-  color: #F14E95;
+  color: #0A837A;
 }
 .fh5co-bg#fh5co-started .btn {
-  background: #F14E95;
+  background: #0A837A;
   border: none !important;
   color: #fff;
 }
@@ -2371,7 +2382,7 @@ html::-webkit-scrollbar {
   border-radius: 0;
 }
 #contacto .promo-card .btn {
-  background: #F14E95;
+  background: #0A837A;
   border: none !important;
   color: #fff;
 }
