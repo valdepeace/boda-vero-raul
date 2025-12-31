@@ -1684,28 +1684,28 @@ form label {
   display: inline-block;
   width: 25px;
   height: 2px;
-  color: #252525;
+  color: #0A837A;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #252525;
+  background: #0A837A;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 2px;
-  background: #252525;
+  background: #0A837A;
   position: absolute;
   left: 0;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
-  color: #fff;
-  background: #fff;
+  color: #0A837A;
+  background: #0A837A;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #fff;
+  background: #0A837A;
 }
 
 .fh5co-nav-toggle i::before {
@@ -2126,7 +2126,7 @@ html::-webkit-scrollbar {
 }
 #fh5co-event .event-col i {
   color: #0A837A;
-  text-shadow: 0 0 4px rgba(241, 78, 149, 0.25);
+  text-shadow: 0 0 4px rgba(10, 131, 122, 0.25);
 }
 
 @media screen and (max-width: 768px) {
