@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path d="M50,95 C50,95 5,65 5,35 C5,15 25,5 50,25 C75,5 95,15 95,35 C95,65 50,95 50,95 Z" fill="#FF0000"/>
-  <!-- Flecha de Cupido interrumpida -->
-  <line x1="12" y1="88" x2="32" y2="68" stroke="rgba(255,255,255,0.5)" stroke-width="4" />
-  <line x1="68" y1="32" x2="88" y2="12" stroke="rgba(255,255,255,0.5)" stroke-width="4" />
+  <!-- Flecha de Cupido interrumpida con más opacidad -->
+  <line x1="12" y1="88" x2="32" y2="68" stroke="rgba(255,255,255,0.85)" stroke-width="4" />
+  <line x1="68" y1="32" x2="88" y2="12" stroke="rgba(255,255,255,0.85)" stroke-width="4" />
   <!-- Punta de la flecha -->
-  <path d="M90,10 L78,13 L87,22 Z" fill="rgba(255,255,255,0.8)" />
+  <path d="M90,10 L78,13 L87,22 Z" fill="white" />
   <!-- Cola de la flecha -->
-  <line x1="10" y1="90" x2="5" y2="85" stroke="rgba(255,255,255,0.5)" stroke-width="3" />
-  <line x1="10" y1="90" x2="15" y2="95" stroke="rgba(255,255,255,0.5)" stroke-width="3" />
+  <line x1="10" y1="90" x2="5" y2="85" stroke="rgba(255,255,255,0.85)" stroke-width="3" />
+  <line x1="10" y1="90" x2="15" y2="95" stroke="rgba(255,255,255,0.85)" stroke-width="3" />
   
   <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="34" fill="white">V&amp;R</text>
 </svg>
