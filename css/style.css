@@ -2081,13 +2081,17 @@ html::-webkit-scrollbar {
   opacity: 0;
 }
 
-#transport {
+#transport,
+#contacto,
+#fh5co-regalos {
   position: relative;
 }
 #transport::before {
  
 }
-#transport .container {
+#transport .container,
+#contacto .container,
+#fh5co-regalos .container {
   position: relative;
   z-index: 1;
 }
@@ -2199,7 +2203,9 @@ html::-webkit-scrollbar {
     max-width: 360px;
   }
 }
-#transport .overlay {
+#transport .overlay,
+#contacto .overlay,
+#fh5co-regalos .overlay {
   background: rgba(255, 255, 255, 0.45);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
