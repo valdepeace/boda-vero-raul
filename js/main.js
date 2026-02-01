@@ -226,11 +226,18 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
-		$('a[href^="#"]').on('click', function(e){
-			var target = $($(this).attr('href'));
+		$(document).on('click', 'a[href^="#"]', function(e){
+			var href = $(this).attr('href');
+			if (href === "#") return;
+			var target = $(href);
 			if (target.length){
 				e.preventDefault();
 				$('html, body').animate({ scrollTop: target.offset().top }, 600, 'easeInOutExpo');
+				
+				if ( $('body').hasClass('offcanvas') ) {
+					$('body').removeClass('offcanvas overflow');
+					$('.js-fh5co-nav-toggle').removeClass('active');
+				}
 			}
 		});
 	});
