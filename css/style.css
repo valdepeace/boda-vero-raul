@@ -2082,7 +2082,6 @@ html::-webkit-scrollbar {
 }
 
 #transport,
-#contacto,
 #fh5co-regalos {
   position: relative;
 }
@@ -2090,7 +2089,6 @@ html::-webkit-scrollbar {
  
 }
 #transport .container,
-#contacto .container,
 #fh5co-regalos .container {
   position: relative;
   z-index: 1;
@@ -2204,7 +2202,6 @@ html::-webkit-scrollbar {
   }
 }
 #transport .overlay,
-#contacto .overlay,
 #fh5co-regalos .overlay {
   background: rgba(255, 255, 255, 0.45);
   backdrop-filter: blur(6px);
@@ -2357,44 +2354,102 @@ html::-webkit-scrollbar {
   }
 }
 
-#contacto {
+#redes-sociales .fh5co-heading h2 {
+  color: #0A837A;
 }
-@media screen and (max-width: 768px) {
-  #contacto .fh5co-heading {
-    display: block;
-    background: rgba(255, 255, 255, 0.92);
-    padding: 24px 20px;
-    border-radius: 6px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-    max-width: 520px;
-    margin: 0 auto;
-    text-align: center;
-  }
+#redes-sociales .person-carousel {
+  background: rgba(255, 255, 255, 0.90);
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+  padding: 18px;
+  margin-bottom: 22px;
 }
-.promo-card {
-  background: rgba(255, 255, 255, 0.92);
-  border: 2px solid rgba(0,0,0,0.08);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-  padding: 28px 24px;
-  border-radius: 6px;
-  max-width: 720px;
-  margin: 0 auto;
+#redes-sociales .person-head {
+  margin-bottom: 14px;
   text-align: center;
 }
-#contacto .promo-card .fh5co-heading {
-  background: transparent;
-  box-shadow: none;
-  padding: 0;
-  border-radius: 0;
+#redes-sociales .person-network {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #0A837A;
 }
-#contacto .promo-card .btn {
-  background: #0A837A;
+#redes-sociales .person-head h3 {
+  margin: 0 0 4px;
+  color: #1f2d2d;
+}
+#redes-sociales .person-head p {
+  margin: 0 0 10px;
+  color: #4b5d5d;
+}
+#redes-sociales .person-head .btn {
   border: none !important;
-  color: #fff;
 }
-#contacto .promo-card .btn:hover,
-#contacto .promo-card .btn:focus {
-  background: #e23988 !important;
+#redes-sociales .net-instagram .person-network {
+  color: #c13584;
+}
+#redes-sociales .net-linkedin .person-network {
+  color: #0a66c2;
+}
+#redes-sociales .net-web .person-network {
+  color: #0A837A;
+}
+#redes-sociales .person-swiper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+#redes-sociales .person-swiper,
+#redes-sociales .person-swiper .swiper-slide {
+  position: relative;
+  height: 360px;
+}
+#redes-sociales .person-swiper .swiper-slide img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  filter: contrast(90%) saturate(105%);
+}
+#redes-sociales .person-swiper .swiper-button-prev,
+#redes-sociales .person-swiper .swiper-button-next {
+  width: 36px;
+  height: 36px;
+  margin-top: -18px;
+  color: #0A837A;
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+#redes-sociales .person-swiper .swiper-button-prev:after,
+#redes-sociales .person-swiper .swiper-button-next:after {
+  font-size: 16px;
+  font-weight: 700;
+}
+#redes-sociales .person-swiper .swiper-pagination-bullet {
+  width: 9px;
+  height: 9px;
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+}
+#redes-sociales .person-swiper .swiper-pagination-bullet-active {
+  background-color: #0A837A;
+}
+@media screen and (max-width: 768px) {
+  #redes-sociales .person-carousel {
+    padding: 14px;
+  }
+  #redes-sociales .person-swiper,
+  #redes-sociales .person-swiper .swiper-slide,
+  #redes-sociales .person-swiper .swiper-slide img {
+    height: 300px;
+  }
+  #redes-sociales .person-head h3 {
+    font-size: 24px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
