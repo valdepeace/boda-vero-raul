@@ -550,6 +550,8 @@
 	})();
 	(function(){
 		if (!window.Swiper) return;
+		var isMobile = window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
+		if (isMobile) return;
 		var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 		var carousels = document.querySelectorAll('#redes-sociales .person-swiper');
 		carousels.forEach(function(carousel){

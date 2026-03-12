@@ -2439,16 +2439,66 @@ html::-webkit-scrollbar {
   background-color: #0A837A;
 }
 @media screen and (max-width: 768px) {
+  #redes-sociales.scroll-fade,
+  #fh5co-regalos.scroll-fade,
+  .js #redes-sociales .animate-box,
+  .js #fh5co-regalos .animate-box {
+    opacity: 1;
+    transform: none;
+  }
+  #redes-sociales .fh5co-heading,
+  #fh5co-regalos .fh5co-heading {
+    display: block;
+    background: rgba(255, 255, 255, 0.72);
+    padding: 20px 18px;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    max-width: 520px;
+    margin: 0 auto 22px;
+    text-align: center;
+  }
   #redes-sociales .person-carousel {
+    max-width: 420px;
+    margin: 0 auto 18px;
     padding: 14px;
+  }
+  #redes-sociales .person-head {
+    margin-bottom: 10px;
+  }
+  #redes-sociales .person-swiper .swiper-wrapper {
+    display: block;
+    transform: none !important;
   }
   #redes-sociales .person-swiper,
   #redes-sociales .person-swiper .swiper-slide,
   #redes-sociales .person-swiper .swiper-slide img {
-    height: 300px;
+    height: 180px;
+  }
+  #redes-sociales .person-swiper .swiper-slide {
+    display: none;
+  }
+  #redes-sociales .person-swiper .swiper-slide:first-child {
+    display: block;
+  }
+  #redes-sociales .person-swiper .swiper-button-prev,
+  #redes-sociales .person-swiper .swiper-button-next,
+  #redes-sociales .person-swiper .swiper-pagination {
+    display: none;
   }
   #redes-sociales .person-head h3 {
     font-size: 24px;
+  }
+  #fh5co-regalos .col-md-10 {
+    width: 100%;
+  }
+  #fh5co-regalos .col-md-6 {
+    float: none;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto 16px;
+  }
+  #fh5co-regalos .event-wrap {
+    padding: 24px 20px !important;
   }
 }
 
