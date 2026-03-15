@@ -4,6 +4,7 @@ node_modules
 .vscode
 .trae
 .vercel
+.claude
 package-lock.json
 dist
 build
