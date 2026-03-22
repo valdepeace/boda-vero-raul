@@ -2399,44 +2399,15 @@ html::-webkit-scrollbar {
 #redes-sociales .net-web .person-network {
   color: #0A837A;
 }
-#redes-sociales .person-swiper {
+#redes-sociales .person-image {
   border-radius: 10px;
   overflow: hidden;
 }
-#redes-sociales .person-swiper,
-#redes-sociales .person-swiper .swiper-slide {
-  position: relative;
-  height: 360px;
-}
-#redes-sociales .person-swiper .swiper-slide img {
+#redes-sociales .person-image img {
   width: 100%;
   height: 360px;
   object-fit: cover;
   filter: contrast(90%) saturate(105%);
-}
-#redes-sociales .person-swiper .swiper-button-prev,
-#redes-sociales .person-swiper .swiper-button-next {
-  width: 36px;
-  height: 36px;
-  margin-top: -18px;
-  color: #0A837A;
-  background: rgba(255, 255, 255, 0.86);
-  border-radius: 50%;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
-}
-#redes-sociales .person-swiper .swiper-button-prev:after,
-#redes-sociales .person-swiper .swiper-button-next:after {
-  font-size: 16px;
-  font-weight: 700;
-}
-#redes-sociales .person-swiper .swiper-pagination-bullet {
-  width: 9px;
-  height: 9px;
-  background: rgba(255, 255, 255, 0.8);
-  opacity: 1;
-}
-#redes-sociales .person-swiper .swiper-pagination-bullet-active {
-  background-color: #0A837A;
 }
 @media screen and (max-width: 768px) {
   #redes-sociales.scroll-fade,
@@ -2465,25 +2436,8 @@ html::-webkit-scrollbar {
   #redes-sociales .person-head {
     margin-bottom: 10px;
   }
-  #redes-sociales .person-swiper .swiper-wrapper {
-    display: block;
-    transform: none !important;
-  }
-  #redes-sociales .person-swiper,
-  #redes-sociales .person-swiper .swiper-slide,
-  #redes-sociales .person-swiper .swiper-slide img {
+  #redes-sociales .person-image img {
     height: 180px;
-  }
-  #redes-sociales .person-swiper .swiper-slide {
-    display: none;
-  }
-  #redes-sociales .person-swiper .swiper-slide:first-child {
-    display: block;
-  }
-  #redes-sociales .person-swiper .swiper-button-prev,
-  #redes-sociales .person-swiper .swiper-button-next,
-  #redes-sociales .person-swiper .swiper-pagination {
-    display: none;
   }
   #redes-sociales .person-head h3 {
     font-size: 24px;
